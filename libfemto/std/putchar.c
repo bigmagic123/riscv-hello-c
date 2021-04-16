@@ -7,7 +7,7 @@ enum {
     UART_REG_TXFIFO = 0,
 };
 
-static volatile int *uart = (int *)(void *)0x10013000;
+static volatile int *uart = (int *)(void *)0x10010000;
 
 int putchar(int ch)
 {
